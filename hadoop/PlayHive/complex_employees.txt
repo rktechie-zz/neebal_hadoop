@@ -1,0 +1,16 @@
+create table complex_employees (name string, age int, emails array<string>, gender char(1), 
+	salary_details map<string,double>, address struct<state:string, city:string, pincode:int>)
+row format delimited 
+fields terminated by ','
+collection items terminated by '$'
+map keys terminated by '#'
+lines terminated by '\n';
+
+// Name of all employees whose basic salary is greater than 1000
+select name from complex_employees 
+where salary_details["basic"] > 1000;
+    
+// Name of all employees who live in mumbai
+select name from complex_employees 
+where address.city like 'mumbai'
+order by name;

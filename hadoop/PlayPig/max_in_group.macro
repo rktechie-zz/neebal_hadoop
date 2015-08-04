@@ -1,0 +1,4 @@
+define max_in_group(records, group_field, max_field) returns maxingrouprecs {
+	grpd_records = group $records by $group_field;
+	$maxingrouprecs = foreach grpd_records generate group, MAX($records.$max_field);
+};

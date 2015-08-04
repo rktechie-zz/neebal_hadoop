@@ -1,0 +1,15 @@
+create table partition_weather_records (stationNo string, datemonth string, hourminute string, temperature float)
+partitioned by (year int)
+row format delimited 
+fields terminated  by '|'
+lines terminated by '\n';
+
+load data local inpath '/root/Documents/Rishabh/hive_weather_data_input/weather_data_set_1900' 
+into table partition_weather_records partition (year = 1900);
+
+load data local inpath '/root/Documents/Rishabh/hive_weather_data_input/weather_data_set_1901' 
+into table partition_weather_records partition (year = 1901);
+
+desc partition_weather_records;
+
+select * from partition_weather_records where year = 1900;
