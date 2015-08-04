@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=LibrarianBigData/src&lt;com.neebal.library.wordindex{WordIndexMapper.java[WordIndexMapper" modifiers="1" timestamp="1434776232000"/>
+<typeInfo handle="=LibrarianBigData/src&lt;com.neebal.library.wordindex{WordIndexReducer.java[WordIndexReducer" modifiers="1" timestamp="1434780562000"/>
+<typeInfo handle="=AvroWeatherDataHandler/lib\/avro-mapred-1.7.4-hadoop2.jar&lt;org.apache.avro.mapred(AvroMapper.class[AvroMapper" modifiers="33" timestamp="1436007347000"/>
+<typeInfo handle="=AvroWeatherDataHandler/lib\/avro-mapred-1.7.4-hadoop2.jar&lt;org.apache.avro.mapred(AvroReducer.class[AvroReducer" modifiers="33" timestamp="1436007347000"/>
+<typeInfo handle="=AvroWeatherDataHandler/src&lt;in.neebal.avro.weatherdata{KeyValueMaxTempFinderAvroMapper.java[KeyValueMaxTempFinderAvroMapper" modifiers="1" timestamp="1436599123000"/>
+<typeInfo handle="=AvroWeatherDataHandler/src&lt;in.neebal.avro.weatherdata{KeyValueMaxTempFinderAvroReducer.java[KeyValueMaxTempFinderAvroReducer" modifiers="1" timestamp="1436599645000"/>
+</typeInfoHistroy>

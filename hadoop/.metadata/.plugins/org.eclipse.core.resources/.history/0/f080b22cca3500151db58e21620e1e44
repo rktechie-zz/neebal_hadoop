@@ -1,0 +1,16 @@
+show databases;
+
+create database hive_lecture_db;
+show databases;
+show tables;
+
+use hive_lecture_db;
+
+create table weather_records(stationNo char(5), year int, datemonth string, hourminute string, temperature float)
+comment 'Stores all cleaned weather data'
+row format delimited 
+fields terminated by '|'
+lines terminated by '\n';
+
+show tables;
+desc weather_records;

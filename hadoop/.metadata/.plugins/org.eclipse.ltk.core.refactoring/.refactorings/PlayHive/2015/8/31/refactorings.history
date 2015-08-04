@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PlayHive/partition_weather_data&apos; to &apos;partition_weather_data.txt&apos;" description="Rename resource &apos;partition_weather_data&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="partition_weather_data" name="partition_weather_data.txt" stamp="1438411939495" updateReferences="true"/>
+</session>
