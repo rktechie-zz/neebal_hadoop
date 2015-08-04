@@ -1,0 +1,10 @@
+{
+	"name": "MaxTempYear",
+	"type": "record",
+	"namespace": "in.neebal.avro.weatherdata",
+	"fields": [
+		{"name": "year", "type": "int", "default": 0},
+		{"name": "maxTemperature", "type": "int", "default": -1},
+		{"name": "hours", "type": "int", "default": -1}
+	]
+}

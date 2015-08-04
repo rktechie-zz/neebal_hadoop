@@ -1,0 +1,11 @@
+{
+	"name": "WeatherData",
+	"type": "record",
+	"namespace": "in.neebal.avro.weatherdata",
+	"fields": [
+		{"name": "stationNo", "type": "string", "default": ""},
+		{"name": "year", "type": "int", "default": 0},
+		{"name": "temperature", "type": "int", "default": -1},
+		{"name": "hours", "type": "int", "default": -1}
+	]
+}
