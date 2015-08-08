@@ -1,0 +1,13 @@
+list
+
+create 'employees','personal','professional'
+list
+describe 'employees'
+
+put 'employees', 'chopra-1', 'personal:name', 'mehul chopra'
+put 'employees', 'chopra-1', 'personal:address', 'andheri(w) mumbai'
+put 'employees', 'chopra-1', 'professional:designation', 'Developer'
+put 'employees', 'chopra-1', 'professional:salary', '1000'
+
+scan 'employees'
+

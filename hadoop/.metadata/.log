@@ -3850,3 +3850,19 @@ Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.pa
 
 !ENTRY org.eclipse.core.resources 2 10035 2015-08-01 11:05:47.180
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2015-08-08 14:42:12.440 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 4 4 2015-08-08 14:45:36.120
+!MESSAGE Plug-in 'org.melord.android.adt.ext' contributed an invalid Menu Extension (Path: 'org.melord.android.adt.ext.menu1' is invalid): org.melord.android.adt.ext.newActivity
+
+!ENTRY org.eclipse.ui 4 4 2015-08-08 14:46:04.093
+!MESSAGE Plug-in 'org.melord.android.adt.ext' contributed an invalid Menu Extension (Path: 'org.melord.android.adt.ext.menu1' is invalid): org.melord.android.adt.ext.newActivity
+
+!ENTRY org.eclipse.ui 4 4 2015-08-08 15:08:43.898
+!MESSAGE Plug-in 'org.melord.android.adt.ext' contributed an invalid Menu Extension (Path: 'org.melord.android.adt.ext.menu1' is invalid): org.melord.android.adt.ext.newActivity

@@ -1,0 +1,27 @@
+package in.neebal.playhbase;
+
+import java.io.IOException;
+
+import org.apache.hadoop.hbase.TableName;
+import org.apache.hadoop.hbase.client.Connection;
+import org.apache.hadoop.hbase.client.ConnectionFactory;
+import org.apache.hadoop.hbase.client.Table;
+
+public class EmployeesOperations {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+		Connection connection = ConnectionFactory.createConnection();
+		 Table table = connection.getTable(TableName.valueOf("employees"));
+		 try {
+			 
+		 } finally {
+		   table.close();
+		   connection.close();
+		 }
+	}
+
+}

@@ -1,6 +1,0 @@
-create table partition_weather_records (stationNo string, datemonth string, hourminute string, temperature float)
-partitioned by (year int)
-row format delimited 
-fields terminated  by '|'
-lines terminated by '\n';
-

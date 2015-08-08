@@ -1,0 +1,35 @@
+// Commands to write on hbase shell
+
+list
+
+create 'employees','personal','professional'
+list
+describe 'employees'
+
+put 'employees', 'chopra-1', 'personal:name', 'mehul chopra'
+put 'employees', 'chopra-1', 'personal:address', 'andheri(w) mumbai'
+put 'employees', 'chopra-1', 'professional:designation', 'Developer'
+put 'employees', 'chopra-1', 'professional:salary', '1000'
+scan 'employees'
+
+put 'employees', 'bheda-2', 'personal:name', 'pranshu bheda'
+put 'employees', 'bheda-2', 'professional:designation', 'ceo'
+put 'employees', 'bheda-2', 'professional:salary', '5000000'
+scan 'employees'
+
+put 'employees', 'miranda-456', 'personal:name', 'jude miranda'
+scan 'employees'
+
+//Update
+put 'employees', 'bheda-2', 'personal:gender', 'M'
+scan 'employees'
+
+//delete
+deleteall 'employees', 'miranda-456'
+
+//Get the data
+get 'employees', 'bheda-2'
+get 'employees', 'bheda-2', 'personal'
+get 'employees', 'bheda-2', 'personal:name'
+
+scan 'employees', {STARTROW => 'c', STOPROW => 'd'}
